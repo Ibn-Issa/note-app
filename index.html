@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <neta charset="UTF-8" />
+    <neta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note App | Ibn Issa</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid my-3 small">
+      <div class="row">
+        <div class="col">
+          <button
+            type="button"
+            id="add-note"
+            onclick="newNote"
+            class="btn btn-sm btn-primary"
+          >
+            Add Note
+          </button>
+        </div>
+      </div>
+      
+      <div class="row my-3" id="notes">
+        
+      </div>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
